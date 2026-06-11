@@ -125,6 +125,35 @@ Contém os dados utilizados na carga inicial e materiais de apoio relacionados �
 
 ```
 ```
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+### Banco de Dados:
+- Oracle Database
+
+### Linguagens:
+- SQL
+- PL/SQL
+
+### Ferramentas de Desenvolvimento:
+- Oracle SQL Developer
+- Oracle SQL Developer Data Modeler
+
+### Versionamento:
+- Git
+- GitHub
+
+---
+
+## 🔗 Integração com o Projeto de Analytics
+
+O banco de dados desenvolvido neste projeto serviu como base para o projeto Deep-Ice-Cream-Sales-Analytics, onde os dados foram utilizados para análises
+exploratórias, geração de indicadores de negócio e construção de modelos de previsão de vendas.
+
+A separação entre os projetos permite representar de forma mais próxima um ambiente corporativo, onde a camada de armazenamento dos dados é desenvolvida
+independentemente da camada analítica.
+
 
 
 
