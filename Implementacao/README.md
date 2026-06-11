@@ -1,18 +1,22 @@
+---
 
+# ⚙️ Implementação
 
-## ⚙️ Implementação
+---
 
 Esta pasta contém os scripts responsáveis pela implementação física do banco de dados da Deep Ice Cream.
 
 A partir da modelagem desenvolvida na etapa anterior, foram criadas as tabelas, constraints, procedures e views necessárias para suportar as operações da empresa e disponibilizar informações para futuras análises.
-## 📌 Objective
-This project simulates a real-world sales database for an ice cream business, designed to demonstrate skills in:
-- Relational modeling
-- PL/SQL procedures
-- Price history handling
-- Business rules
-- Analytical SQL views
 
+---
+
+## 🎯 Objetivos da Implementação
+
+- Criar a estrutura física do banco de dados
+- Garantir integridade referencial entre as entidades
+- Implementar regras de negócio através de procedures
+- Realizar a carga inicial dos dados
+- Disponibilizar views para análises futuras
 ## 🗂 Project Structure
 - **Model/**: Relational model created with Oracle SQL Developer Data Modeler
 - **Sql/**: Database creation, data population, procedures, and analytical views
