@@ -71,6 +71,7 @@ O processo de vendas foi modelado através das entidades:
 - Item Pedido
 - Produto
 - Categoria
+- Histórico de Preços
 
 <p align="center">
   <img width="900" height="475" alt="Entidades_produtoo" src="https://github.com/user-attachments/assets/f7f42c8d-c087-4717-b774-cfcb4aca015e" />
