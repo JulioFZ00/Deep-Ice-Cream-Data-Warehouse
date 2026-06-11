@@ -2,7 +2,7 @@
 
 # 🍦 Deep-Ice-Cream-Data-Warehouse
 
----
+--- 
 
 ## 📌 Contexto de Negócio
 
