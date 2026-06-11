@@ -1,4 +1,8 @@
+---
+
 # 📐 Documentação da Modelagem
+
+---
 
 Após o levantamento dos requisitos de negócio, foi realizada a modelagem do banco de dados com o objetivo de representar os principais processos da
 empresa, garantindo integridade, escalabilidade e suporte para futuras análises.
@@ -24,4 +28,4 @@ Como resultado, a modelagem garante maior consistência dos dados e evita a repe
   <img width="900" height="550" alt="Entidades_Geograficas" src="https://github.com/user-attachments/assets/83d1ab22-459a-4f90-934a-5e57c9a64948" />
 </p>
 
-
+---
