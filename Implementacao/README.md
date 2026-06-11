@@ -4,7 +4,12 @@
 
 Esta pasta contém os scripts responsáveis pela implementação física do banco de dados da Deep Ice Cream.
 
-A partir da modelagem desenvolvida na etapa anterior, foram criadas as tabelas, constraints, procedures e views necessárias para suportar as operações da empresa e disponibilizar informações para futuras análises.
+Com base na modelagem desenvolvida na etapa anterior, foram criadas as estruturas necessárias para armazenar e organizar as informações da empresa de forma consistente e escalável.
+
+Além da criação das tabelas e relacionamentos, a implementação contempla regras de negócio, procedimentos automatizados para manipulação dos dados e views analíticas voltadas para consultas e geração de informações estratégicas.
+
+O objetivo desta etapa é transformar o modelo conceitual e lógico em uma solução funcional, capaz de suportar as operações da empresa e servir como base para futuras análises de dados e processos de tomada de decisão.
+
 
 ---
 
