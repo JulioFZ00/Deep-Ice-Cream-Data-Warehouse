@@ -25,7 +25,7 @@ específicas para cada tipo de cadastro.
 Como resultado, a modelagem garante maior consistência dos dados e evita a repetição de informações de localização ao longo do banco de dados.
 
 <p align="center">
-  <img width="900" height="550" alt="Entidades_Geograficas" src="https://github.com/user-attachments/assets/83d1ab22-459a-4f90-934a-5e57c9a64948" />
+  <img width="900" height="600" alt="Entidades_Geograficas" src="https://github.com/user-attachments/assets/83d1ab22-459a-4f90-934a-5e57c9a64948" />
 </p>
 
 ---
@@ -47,7 +47,9 @@ Unidades:
 - Representam lojas e centros de distribuição.
 - Endereços armazenados em DIC_END_UNI.
 
-
+<p align="center">
+  <img width="900" height="600" alt="Entidades_Pessoas" src="https://github.com/user-attachments/assets/7cb71942-03dc-4c16-aade-7e3592a44c9e" />
+</p>
 
 
 
