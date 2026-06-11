@@ -82,6 +82,7 @@ Para evitar redundâncias e garantir consistência dos dados de localização, f
 Essa abordagem permite reutilização de informações geográficas e facilita futuras expansões do sistema.
 
 
-[Entidades_Geograficas.pdf](https://github.com/user-attachments/files/28835842/Entidades_Geograficas.pdf)
+<img width="1024" height="803" alt="Captura de tela 2026-06-11 081439" src="https://github.com/user-attachments/assets/731fe434-576b-4dbe-ab13-6f80b620f0bb" />
+
 
 
