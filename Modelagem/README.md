@@ -82,16 +82,13 @@ estrutura reproduz o comportamento encontrado em sistemas reais de vendas e gara
 Como resultado, a modelagem permite acompanhar o histórico comercial da empresa, analisar o desempenho dos produtos e preservar a integridade das
 informações financeiras ao longo do tempo.
 
+---
 
+## 🔗 Relação com a Implementação
 
+A partir da modelagem apresentada, foram desenvolvidos os scripts SQL responsáveis pela criação das tabelas, definição de constraints, carga inicial dos dados e construção das views analíticas.
 
+Os scripts estão disponíveis na pasta [`Implementacao`](../Implementacao).
 
-
-
-
-
-
-
-
-
+---
 
