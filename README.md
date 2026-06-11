@@ -65,6 +65,67 @@ O banco de dados foi projetado para representar as principais áreas de negócio
 
 ---
 
+## 📐 Visão Geral da Solução
+
+Para atender às necessidades da empresa, foi desenvolvido um banco de dados relacional utilizando Oracle Database.
+
+A solução foi projetada para centralizar as informações de clientes, produtos, pedidos, funcionários e unidades da empresa, garantindo integridade dos dados e suporte para análises futuras.
+
+O desenvolvimento contemplou desde a modelagem conceitual até a implementação física do banco de dados, incluindo regras de negócio, procedures e views analíticas para facilitar a exploração das informações.
+
+A estrutura do projeto foi organizada em três pilares principais:
+
+* Modelagem dos dados
+* Implementação do banco de dados
+* Dados de origem e carga inicial
+
+---
+
+## 📂 Estrutura do Projeto
+
+```text
+Deep-Ice-Cream-Data-Warehouse
+│
+├── .gitignore
+├── README.md
+│
+├── Modelagem/
+│   ├── README.md
+│   ├── DIC_RELACIONAL.dmd
+│   └── PDF_DIC_RELACIONAL.pdf
+│
+├── Implementacao/
+│   ├── README.md
+│   ├── 01_create_schema.sql
+│   ├── 02_inserts_base.sql
+│   ├── 03_procedures.sql
+│   ├── 04_test_procedures.sql
+│   ├── 05_drop_schema.sql
+│   └── Views_Analiticas/
+│
+├── Dados_Originais/
+│   ├── sales_2023.sql
+│   └── sales_2024.sql
+
+```
+
+### Descrição das Pastas
+
+**Modelagem**
+
+Contém a documentação e os diagramas utilizados durante a construção do modelo de dados.
+
+**Implementação**
+
+Contém os scripts SQL responsáveis pela criação do banco de dados, procedures, views e demais objetos implementados.
+
+**Dados_Originais**
+
+Contém os dados utilizados na carga inicial e materiais de apoio relacionados à origem das informações.
+
+```
+```
+
 
 
 
