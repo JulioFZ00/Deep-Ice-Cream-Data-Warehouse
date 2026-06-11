@@ -1,26 +1,69 @@
-## 📐 Modelagem
+---
 
-Após o levantamento dos requisitos de negócio, foi realizada a modelagem do banco de dados com o objetivo de representar os principais processos da
-empresa, garantindo integridade, escalabilidade e suporte para futuras análises.
+# 🍦 Deep-Ice-Cream-Data-Warehouse
 
-### Entidades Geográficas
+---
 
-Para evitar redundâncias e garantir consistência dos dados de localização, foi criada uma estrutura hierárquica composta por:
+## 📌 Contexto de Negócio
 
-- Estado
-- Cidade
-- Bairro
-- Logradouro
+A Deep Ice Cream é uma empresa fictícia do setor varejista de sorvetes.
 
-Essa abordagem permite reutilização de informações geográficas e facilita futuras expansões do sistema.
+Com o crescimento da operação, as informações da empresa passaram a ser armazenadas em diversas planilhas Excel independentes, dificultando 
+o controle e a consolidação dos dados, além de aumentar o risco de inconsistências e retrabalho na geração de relatórios gerenciais.
 
-lém disso, foram criadas estruturas específicas de endereço para clientes, funcionários e unidades da empresa (DIC_END_CLI, DIC_END_FUNCI e DIC_END_UNI).
-Essa separação permite manter a integridade referencial de cada entidade, tornando o modelo mais organizado e facilitando a aplicação de regras de negócio
-específicas para cada tipo de cadastro.
+Os principais impactos observados foram:
 
-Como resultado, a modelagem garante maior consistência dos dados e evita a repetição de informações de localização ao longo do banco de dados.
+- Dificuldade na consolidação das informações
+- Maior risco de inconsistências nos dados
+- Retrabalho na geração de relatórios gerenciais
+- Limitações para análises de negócio
+- Dificuldades de escalabilidade da operação
 
-<p align="center">
-  <img width="900" height="550" alt="Entidades_Geograficas" src="https://github.com/user-attachments/assets/83d1ab22-459a-4f90-934a-5e57c9a64948" />
-</p>
+Diante desse cenário, a diretoria solicitou ao time de dados o desenvolvimento de uma solução capaz de centralizar, organizar
+e estruturar as informações da empresa, criando uma base sólida para futuras análises e tomadas de decisão.
+
+---
+
+## 🎯 Objetivo do Projeto
+
+Projetar e implementar um banco de dados relacional para:
+
+- Centralizar os dados da empresa
+- Garantir integridade e consistência das informações
+- Eliminar redundâncias
+- Facilitar consultas analíticas
+- Servir como base para futuras análises de negócio
+
+---
+
+## 🏗️ Escopo do Projeto
+
+- Levantamento de requisitos
+- Modelagem conceitual
+- Modelagem lógica
+- Modelagem física
+- Implementação em Oracle SQL
+- Desenvolvimento de procedures
+- Criação de views analíticas
+- Carga e validação dos dados
+
+---
+
+## 🗃️ Entidades Modeladas
+
+O banco de dados foi projetado para representar as principais áreas de negócio da empresa, contemplando as seguintes entidades:
+
+- Clientes
+- Endereços
+- Produtos
+- Categorias
+- Pedidos
+- Itens de Pedido
+- Funcionários
+- Unidades
+- Histórico de Preços
+
+---
+
+
 
