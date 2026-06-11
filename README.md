@@ -91,7 +91,6 @@ Deep-Ice-Cream-Data-Warehouse
 │
 ├── Modelagem/
 │   ├── README.md
-│   ├── DIC_RELACIONAL.dmd
 │   └── PDF_DIC_RELACIONAL.pdf
 │
 ├── Implementacao/
