@@ -7,7 +7,7 @@
 Após o levantamento dos requisitos de negócio, foi realizada a modelagem do banco de dados com o objetivo de representar os principais processos da
 empresa, garantindo integridade, escalabilidade e suporte para futuras análises.
 
-## Entidades Geográficas
+## 🌎 Entidades Geográficas
 
 Para evitar redundâncias e garantir consistência dos dados de localização, foi criada uma estrutura hierárquica composta por:
 
@@ -29,3 +29,38 @@ Como resultado, a modelagem garante maior consistência dos dados e evita a repe
 </p>
 
 ---
+
+## 👥 Entidades com Endereço
+
+- Cliente
+- Funcionário
+- Unidade
+
+Para garantir flexibilidade e reutilização da estrutura geográfica, foram criadas tabelas específicas de endereço para clientes, funcionários e unidades da
+empresa.
+
+Clientes:
+- Dados cadastrais dos clientes.
+- Endereços armazenados em DIC_END_CLI.
+  
+Funcionários:
+- Dados dos colaboradores.
+- Endereços armazenados em DIC_END_FUNCI.
+  
+Unidades:
+- Representam lojas e centros de distribuição.
+- Endereços armazenados em DIC_END_UNI.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
