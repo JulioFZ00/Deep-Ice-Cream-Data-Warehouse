@@ -73,7 +73,7 @@ O processo de vendas foi modelado através das entidades:
 - Categoria
 
 <p align="center">
-  <img width="900" height="450" alt="Entidades_produtoo" src="https://github.com/user-attachments/assets/f7f42c8d-c087-4717-b774-cfcb4aca015e" />
+  <img width="900" height="475" alt="Entidades_produtoo" src="https://github.com/user-attachments/assets/f7f42c8d-c087-4717-b774-cfcb4aca015e" />
 </p>
 
 A entidade Pedido representa a transação realizada pelo cliente, enquanto Item Pedido permite que um mesmo pedido contenha múltiplos produtos. Essa
