@@ -51,6 +51,39 @@ Unidades:
   <img width="900" height="600" alt="Entidades_Pessoas" src="https://github.com/user-attachments/assets/7cb71942-03dc-4c16-aade-7e3592a44c9e" />
 </p>
 
+---
+
+## 🍦 Produtos, Categorias e Processo de Vendas
+
+A estrutura comercial do banco de dados foi projetada para representar o catálogo de produtos da empresa, suas categorias, o histórico de preços praticados
+e todo o processo de vendas.
+
+Os produtos são organizados por meio da entidade Categoria, que permite agrupar itens com características semelhantes, facilitando consultas analíticas e
+futuras expansões do portfólio.
+
+Além disso, foi criada uma tabela específica de Histórico de Preços, responsável por armazenar as alterações de custo e preço de venda dos produtos ao
+longo do tempo. Essa abordagem garante que mudanças futuras de preço não impactem registros históricos de vendas, preservando a consistência das análises
+realizadas.
+
+O processo de vendas foi modelado através das entidades:
+
+- Pedido
+- Item Pedido
+- Produto
+- Categoria
+
+<p align="center">
+  <img width="900" height="600" alt="Entidades_produtoo" src="https://github.com/user-attachments/assets/f7f42c8d-c087-4717-b774-cfcb4aca015e" />
+</p>
+
+A entidade Pedido representa a transação realizada pelo cliente, enquanto Item Pedido permite que um mesmo pedido contenha múltiplos produtos. Essa
+estrutura reproduz o comportamento encontrado em sistemas reais de vendas e garante maior flexibilidade para consultas e análises futuras.
+
+Como resultado, a modelagem permite acompanhar o histórico comercial da empresa, analisar o desempenho dos produtos e preservar a integridade das
+informações financeiras ao longo do tempo.
+
+
+
 
 
 
