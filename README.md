@@ -122,8 +122,6 @@ Contém os scripts SQL responsáveis pela criação do banco de dados, procedure
 
 Contém os dados utilizados na carga inicial e materiais de apoio relacionados à origem das informações.
 
-```
-```
 ---
 
 ## 🛠️ Tecnologias Utilizadas
