@@ -32,10 +32,6 @@ Como resultado, a modelagem garante maior consistência dos dados e evita a repe
 
 ## 👥 Entidades com Endereço
 
-- Cliente
-- Funcionário
-- Unidade
-
 Para garantir flexibilidade e reutilização da estrutura geográfica, foram criadas tabelas específicas de endereço para clientes, funcionários e unidades da
 empresa.
 
