@@ -2,8 +2,6 @@
 
 # ⚙️ Implementação
 
----
-
 Esta pasta contém os scripts responsáveis pela implementação física do banco de dados da Deep Ice Cream.
 
 A partir da modelagem desenvolvida na etapa anterior, foram criadas as tabelas, constraints, procedures e views necessárias para suportar as operações da empresa e disponibilizar informações para futuras análises.
