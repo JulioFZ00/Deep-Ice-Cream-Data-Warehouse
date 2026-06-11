@@ -15,23 +15,71 @@ A partir da modelagem desenvolvida na etapa anterior, foram criadas as tabelas, 
 - Implementar regras de negócio através de procedures
 - Realizar a carga inicial dos dados
 - Disponibilizar views para análises futuras
-## 🗂 Project Structure
-- **Model/**: Relational model created with Oracle SQL Developer Data Modeler
-- **Sql/**: Database creation, data population, procedures, and analytical views
 
-## 🧱 Database Model
-- Customers
-- Products and categories
-- Orders and order items
-- Price history with validity periods
-- Employees and units
+---
 
-📎 See `model/PDF_RELACIONAL.pdf`
+## 📜 Scripts Disponíveis
 
-## ⚙️ Technologies
+A implementação do banco de dados foi dividida em etapas para facilitar a criação, manutenção e validação da estrutura.
+
+**01_create_schema.sql**
+
+Responsável pela criação das tabelas, constraints e relacionamentos do banco de dados.
+
+**02_inserts_base.sql**
+
+Realiza a carga inicial dos dados cadastrais necessários para o funcionamento do sistema.
+
+**03_procedures.sql**
+
+Contém as procedures utilizadas para automatizar inserções e aplicar regras de negócio.
+
+**04_test_procedures.sql**
+
+Executa testes para validação das procedures implementadas.
+
+**05_drop_schema.sql**
+
+Remove os objetos criados no banco de dados, permitindo recriação completa do ambiente quando necessário.
+
+---
+
+## ⚙️ Componentes Implementados
+
+A partir da modelagem definida na etapa anterior, foram implementados os seguintes componentes:
+
+- Tabelas relacionais
+- Chaves primárias e estrangeiras
+- Constraints de integridade
+- Procedures para inserção e manipulação dos dados
+- Scripts de carga inicial
+- Scripts de validação
+- Views analíticas para suporte à tomada de decisão
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+### Banco de Dados:
+
 - Oracle Database
+
+### Linguagens:
+
+- SQL
 - PL/SQL
-- SQL Developer / SQL Developer Data Modeler
+
+### Ferramentas de Desenvolvimento:
+
+- Oracle SQL Developer
+- Oracle SQL Developer Data Modeler
+
+### Versionamento:
+
+- Git
+- GitHub
+
+---
 
 ## 🔄 Business Rules Implemented
 - Product prices are versioned using a price history table
