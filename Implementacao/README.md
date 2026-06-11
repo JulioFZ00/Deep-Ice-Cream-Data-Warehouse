@@ -1,5 +1,10 @@
-# Ice Cream Sales Database – SQL Project
 
+
+## ⚙️ Implementação
+
+Esta pasta contém os scripts responsáveis pela implementação física do banco de dados da Deep Ice Cream.
+
+A partir da modelagem desenvolvida na etapa anterior, foram criadas as tabelas, constraints, procedures e views necessárias para suportar as operações da empresa e disponibilizar informações para futuras análises.
 ## 📌 Objective
 This project simulates a real-world sales database for an ice cream business, designed to demonstrate skills in:
 - Relational modeling
