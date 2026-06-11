@@ -27,25 +27,33 @@ O objetivo desta etapa é transformar o modelo conceitual e lógico em uma solu�
 
 A implementação do banco de dados foi dividida em etapas para facilitar a criação, manutenção e validação da estrutura.
 
-**01_create_schema.sql**
+### 01_create_schema.sql
 
 Responsável pela criação das tabelas, constraints e relacionamentos do banco de dados.
 
-**02_inserts_base.sql**
+### 02_inserts_base.sql
 
 Realiza a carga inicial dos dados cadastrais necessários para o funcionamento do sistema.
 
-**03_procedures.sql**
+### 03_procedures.sql
 
 Contém as procedures utilizadas para automatizar inserções e aplicar regras de negócio.
 
-**04_test_procedures.sql**
+### 04_test_procedures.sql
 
 Executa testes para validação das procedures implementadas.
 
-**05_drop_schema.sql**
+### 05_drop_schema.sql
 
-Remove os objetos criados no banco de dados, permitindo recriação completa do ambiente quando necessário.
+Remove os objetos criados no banco de dados, permitindo a recriação completa do ambiente quando necessário.
+
+### sales_2023.sql
+
+Contém a carga dos dados históricos de vendas referentes ao ano de 2023.
+
+### sales_2024.sql
+
+Contém a carga dos dados históricos de vendas referentes ao ano de 2024.
 
 ---
 
@@ -60,6 +68,39 @@ A partir da modelagem definida na etapa anterior, foram implementados os seguint
 - Scripts de carga inicial
 - Scripts de validação
 - Views analíticas para suporte à tomada de decisão
+
+---
+
+## 🔄 Regras de Negócio Implementadas
+
+Durante a implementação do banco de dados, foram aplicadas regras de negócio para garantir a consistência das informações e preservar o histórico das
+operações realizadas.
+
+As principais regras implementadas foram:
+
+* Os preços dos produtos são controlados por meio de uma tabela de histórico de preços.
+* Cada venda utiliza o preço vigente na data em que o pedido foi realizado.
+* Um pedido pode conter múltiplos itens.
+* Alterações futuras de preço não afetam vendas já registradas.
+* Os relacionamentos entre as entidades são controlados por constraints de integridade referencial.
+
+---
+
+📊 Views Analíticas
+
+Para facilitar consultas e análises de negócio, foram desenvolvidas views específicas voltadas para indicadores operacionais e comerciais.
+
+As principais views disponibilizadas são:
+
+- Faturamento por Item
+- Faturamento por Pedido
+- Faturamento Mensal
+- Faturamento por Produto e Mês
+- Faturamento por Cliente
+- Ticket Médio
+- Quantidade Vendida por Produto
+
+Essas views servem como camada de apoio para análises futuras e para o projeto Deep-Ice-Cream-Sales-Analytics.
 
 ---
 
@@ -84,31 +125,14 @@ A partir da modelagem definida na etapa anterior, foram implementados os seguint
 - Git
 - GitHub
 
+
 ---
 
-## 🔄 Business Rules Implemented
-- Product prices are versioned using a price history table
-- Sales always use the price valid on the order date
-- One order may contain multiple items
-- Historical sales are not affected by future price changes
+🔗 Próxima Etapa
 
-## 🛠 Scripts Execution Order
-1. `01_create_schema.sql`
-2. `02_inserts_base.sql`
-3. `03_procedures.sql`
-4. `04_test_procedures.sql`
-5. `sales_2023.sql`
-6. `sales_2024.sql`
-7. Views in `views/`
+Após a implementação do banco de dados e carga dos dados históricos, as informações passaram a estar disponíveis para análises exploratórias e construção
+de modelos preditivos.
 
-## 📊 Analytical Views
-- Revenue per item
-- Revenue per order
-- Monthly revenue
-- Revenue per product per month
-- Revenue per customer
-- Average ticket
-- Product quantity sold
+Esses dados foram utilizados no projeto Deep-Ice-Cream-Sales-Analytics, responsável pela geração de indicadores de negócio, análises de desempenho e
+previsões de vendas.
 
-## 🎯 Purpose
-This repository was created as a portfolio project to demonstrate SQL and database design skills for data, BI, and backend-oriented roles.
